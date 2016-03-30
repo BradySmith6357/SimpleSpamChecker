@@ -1,0 +1,35 @@
+@font-face{
+	font-family:"panagraph";
+	src: url(Pangraph-Black.otf);
+}
+
+.gen-btn {
+	margin-top:20px;
+}
+
+.simple-form {
+	margin-top: 20px;
+	background-color: #BFBEBF;
+	padding: 20px;
+	border-radius: 3px;
+	box-shadow: 5px 5px 38px #7F7E7F;
+}
+
+.parafont {
+	font-family: "panagraph", Palatino, serif;
+}
+
+::-webkit-input-placeholder {
+    color:    #909;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 25px;
+}
+
+input[type="text"] {
+	font-family: "panagraph", Tahoma, Geneva, sans-serif;
+	font-size: 40px;
+}
+
+.center {
+	margin: auto;
+}
