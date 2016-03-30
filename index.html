@@ -14,10 +14,12 @@
 	</head>
 	<body ng-controller="mainTroller">
 	<div class="container">
-		<form ng-submit="checkCode()" class="simple-form">
+		<form ng-submit="checkCode()" class="simple-form col s4">
 			<h1 class="center">Are You Human?</h1>
-			<h3 class="parafont">{{randomCode}}</h3>
-			<input type="text" ng-model="inputCode" placeholder="Enter Code Here, Human!" class="input-font">
+			<h3 class="parafont center">{{randomCode}}</h3>
+			<div class="set-input">
+				<input type="text" ng-model="inputCode" placeholder="Enter Code Here, Human!">
+			</div>
 			<input type="submit" class="btn waves-effect waves-light">
 		</form>
 	</div>
@@ -28,9 +30,10 @@
 	</div>
 	<div class="container" ng-show="success">
 		<h1>YOU ARE HUMAN!</h1>
-		<h3>Welcome! Please leave anything robot related at the door</h3>
+		<h3>Welcome! Please leave anything bot related at the door</h3>
 	</div>
 	<div class="container" ng-show="fail">
-		<h1>Get outta here, you dirty robot! There is only room for one of us in this here web property!</h1>
+		<h1>Get outta here, you dirty bot!</h1>
+		<h3>There is only room for one of us in this here web property!</h3>
 	</body>
 </html>
