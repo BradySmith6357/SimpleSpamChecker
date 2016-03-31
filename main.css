@@ -5,6 +5,7 @@
 
 .gen-btn {
 	margin-top:20px;
+	margin-bottom:50px;
 }
 
 .simple-form {
@@ -13,8 +14,8 @@
 	padding: 20px;
 	border-radius: 3px;
 	box-shadow: 5px 5px 38px #7F7E7F;
-	min-height: 375px;
-	max-height: 375px;
+    min-height: 470px;
+    max-height: 470px;
 }
 
 .parafont {
@@ -34,7 +35,7 @@
 }
 
 input[type="text"] {
-	font-family: "panagraph", Tahoma, Geneva, sans-serif;
+/*	font-family: "panagraph", Tahoma, Geneva, sans-serif;*/
 	font-size: 40px;
 	text-align: center;
 }
@@ -42,5 +43,6 @@ input[type="text"] {
 .center {
 	margin: auto;
 	text-align: center;
+	display: block;
 }
 
